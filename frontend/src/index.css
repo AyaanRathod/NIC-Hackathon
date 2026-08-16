@@ -1,0 +1,79 @@
+:root {
+  --bg: #ecebe7;
+  --paper: #fbfbfa;
+  --ink: #161916;
+  --muted: #5c615c;
+  --line: #d5d3cc;
+  --teal: #0d4f4a;
+  --teal-soft: #e4f0ee;
+  --brass: #8f6f3e;
+  --brass-soft: #f3ead8;
+  --haram: #8c2f32;
+  --haram-soft: #f6e8e8;
+  --mixed: #5c4a6e;
+  --mixed-soft: #efe8f4;
+  --tentative: #7a5c22;
+  --tentative-soft: #f4ecd8;
+  --radius: 12px;
+  --shadow: 0 1px 0 rgba(22, 25, 22, 0.04), 0 12px 32px rgba(22, 25, 22, 0.05);
+
+  font-family: Sora, system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  position: relative;
+}
+
+.lattice {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  color: #0d4f4a;
+  opacity: 0.055;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lattice {
+    opacity: 0.04;
+  }
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+code,
+.mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+.display {
+  font-family: Fraunces, Georgia, serif;
+  font-optical-sizing: auto;
+}

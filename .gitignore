@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Node / frontend build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.orig
+*.swp
+.cache/
+
+# Docker
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.override.yml.example
+docker-compose.override.yml.example.bak
+docker-compose.override.yml.example.bak.bak
+docker-compose.override.yml.example.bak.bak.bak
+docker-compose.override.yml.example.bak.bak.bak.bak
+docker-compose.override.yml.example.bak.bak.bak.bak.bak
+docker-compose.override.yml.example.bak.bak.bak.bak.bak.bak
+docker-compose.override.yml.example.bak.bak.bak.bak.bak.bak.bak
+
+CLASSIFICATION.md
