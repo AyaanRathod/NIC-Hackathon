@@ -1,6 +1,6 @@
 # Halal Income and Zakat Calculator
 # SECOND PLACE WINNERS  🥳
-**Classification in depth:** [CLASSIFICATION.md](CLASSIFICATION.md). Use that file when a judge asks how the five labels are assigned.
+**Classification in depth:** [CLASSIFICATION.md](CLASSIFICATION.md).
 
 ---
 
