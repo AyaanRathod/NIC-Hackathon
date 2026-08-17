@@ -1,9 +1,5 @@
 # Halal Income and Zakat Calculator
-
-This document uses ASD-STE100 Simplified Technical English.
-
-The sentences are short. Each sentence has one idea. The words are consistent.
-
+# SECOND PLACE WINNERS  🥳
 **Classification in depth:** [CLASSIFICATION.md](CLASSIFICATION.md). Use that file when a judge asks how the five labels are assigned.
 
 ---
