@@ -13,15 +13,13 @@ This tool helps a user do four tasks:
 3. Separate haram money from halal wealth.
 4. Calculate estimated zakat with **Maliki** rules only.
 
-The team selected **one madhhab**: Maliki. The calculator does not mix rules from other schools.
+We Selected **one madhhab**: Maliki. The calculator does not mix rules from other schools.
 
 A **madhhab** is a school of Islamic law.
 
 ---
 
 ## 2. Words you must know
-
-Use these words in the presentation. Do not replace them with synonyms.
 
 ### Zakat
 
@@ -102,20 +100,6 @@ The tool uses this order. A later step cannot override an earlier step.
 
 A known keyword **wins**. A note on a Tentative row does not change the label to Missing Information.
 
-### Similar Excel files
-
-The organizers may give a new workbook. Sheet names and headers may differ. The style should stay similar.
-
-The parser still maps sheets by alias (`Ledger` → Transactions, `Liabilities` → Debts, `Holdings` → Assets, `Monthly History` → Wealth_History).
-
-If the name does not match, the parser looks at the columns.
-
-Headers such as `Amount (CAD)` become `amount_cad`. The tool reads every row. There is no row limit.
-
-Details and examples: [CLASSIFICATION.md](CLASSIFICATION.md).
-
----
-
 ## 4. How the tool calculates zakat (Maliki)
 
 ### Step A — Read the file
@@ -189,7 +173,7 @@ If either test fails, zakat is 0.
 
 ## 5. Maliki rules in this prototype
 
-The team uses **only** these Maliki exercise rules.
+Ww use **only** these Maliki exercise rules.
 
 ### Gold and silver
 
@@ -289,45 +273,6 @@ Silver uses 999 or 925 (sterling) instead of karats.
 8. Open **Gold** to convert karat weight to CAD.
 9. Open **Rules** if a judge asks for the Maliki list.
 
----
-
-## 8. How you explain this in 3 to 5 minutes
-
-Say the sentences below. Keep them in this order.
-
-1. "This calculator follows **Maliki** rules only."
-2. "Zakat is 2.5% of net zakatable wealth, not a tax on all income."
-3. "**Nisab** is the minimum. The organizers set it in CAD. We do not use a live gold feed for nisab."
-4. "**Hawl** is one lunar year above nisab. If wealth falls below nisab, the year starts again."
-5. "We classify each income line as Halal, Haram, Mixed, Tentative, or Missing Information."
-6. "Haram money is set aside. That act is not zakat."
-7. "Mixed money: if we remove the haram part, we calculate zakat on the halal remainder. If we keep the mixed amount, it stays zakatable."
-8. "We read the full workbook: Transactions, Assets, Debts, Wealth History, and User Profile."
-9. "Zakat uses the Assets snapshot. Income classification uses the Transactions sheet."
-10. "Worn jewelry is exempt. Unpaid personal loans are exempt until received. Only debts due in 12 months are deducted."
-
----
-
-## 9. Worked numbers (Faris Mahmood Practice B)
-
-After a full-file upload:
-
-- Transactions read: 656
-- Income inflows classified: 227
-- Assets used for zakat: 18
-- Debts: 5
-- Months of hawl: 13
-- Zakatable assets: 45,790.00 CAD
-- Debts deducted (12 months): 22,800.00 CAD
-- Net zakatable wealth: 22,990.00 CAD
-- Nisab: 9,250.00 CAD
-- Hawl: complete
-- **Zakat due: 574.75 CAD**
-- Haram to remove: 1,210.00 CAD
-
-Nadia Rahman Practice A uses nisab 9,000.00 CAD. Her month with a large withdrawal stays **above** nisab. Hawl does not reset. Zakat due is 496.75 CAD.
-
----
 
 ## 10. Limits
 
